@@ -1,2 +1,7 @@
 venv/
 __pycache__
+Data/AssemblyAIRunner/config.py
+Data/AssemblyAIRunner/Audio_Downloads/
+Data/AssemblyAIRunner/ffplay.exe
+Data/AssemblyAIRunner/ffmpeg.exe
+Data/AssemblyAIRunner/ffprobe.exe
