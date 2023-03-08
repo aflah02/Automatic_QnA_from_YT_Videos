@@ -3,7 +3,6 @@ import json
 import os
 import youtube_dl
 from time import sleep
-import pafy
 import urllib, urllib.request, json
 from config import *
 
@@ -108,6 +107,13 @@ def transcribe_from_link(link, categories: bool):
         f.write(polling_response.json()['text'])
     print('Transcript saved to', title)
 
-transcribe_from_link("https://www.youtube.com/watch?v=Yocja_N5s1I", True)
-# z = fetch_yt_video("https://www.youtube.com/watch?v=Yocja_N5s1I")
-# print(z)
+links = [
+    "https://www.youtube.com/watch?v=Yocja_N5s1I",
+    "https://www.youtube.com/watch?v=n7ndRwqJYDM",
+    "https://www.youtube.com/watch?v=nbuM0aJjVgE",
+    "https://www.youtube.com/watch?v=nxmWfbXS4Pw",
+    "https://www.youtube.com/watch?v=T_sGTspaF4Y",
+]
+
+for link in links:
+    transcribe_from_link(link, True)
