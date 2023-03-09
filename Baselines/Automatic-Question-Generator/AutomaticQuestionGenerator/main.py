@@ -1,29 +1,50 @@
 import aqgFunction
+import json, random
+import os
 
-def main():
+def getQuestions(inputText):
     aqg = aqgFunction.AutomaticQuestionGenerator()
 
-    inputTextPath = "DB//sample_3_para.txt"
-    readFile = open(inputTextPath, 'r+')
+    # inputTextPath = "DB//sample_3_para.txt"
+    # readFile = open(inputTextPath, 'r+')
 
-    inputText = readFile.read()
+    # inputText = readFile.read()
 
     questionList = aqg.aqgParse(inputText)
-    aqg.display(questionList)
+    questionList = [q for q in questionList if q != '\n']
+    # randomly sample 5 questions
+    questionList = random.sample(questionList, 5)
 
-    return 0
-
-def convert_transcriptions_to_paragraph_text():
-    filtered_text = []
-    with open("DB/sample_3.txt", "r", encoding="utf8") as f:
-        text = f.readlines()
-    for i in range(len(text)):
-        if i%2==0:
-            filtered_text.append(text[i])
-    text = " ".join(filtered_text)
-    with open("DB/sample_3_para.txt", "w") as f:
-        f.write(text.replace("\n", " "))
+    return questionList
 
 if __name__ == "__main__":
-    main()
-    # convert_transcriptions_to_paragraph_text()
+    # main()
+    questions = {}
+    paths = os.listdir('Data/Chunked_Transcripts')
+    json_paths = []
+    for path in paths:
+        if 'json' in path:
+            json_paths.append(path)
+    data = {}
+    for jpath in json_paths:
+        with open('Data/Chunked_Transcripts/' + jpath) as f:
+            jdata = json.load(f)
+        data[jpath] = jdata
+    
+    for fname in data.keys():
+        questions[fname] = {}
+        print("FILE: ", fname)
+        transcript = data[fname]
+        for val in transcript.keys():
+            text = transcript[val]['text']
+            # print(text)
+            # print()
+            # print("AQG Questions:")
+            q = getQuestions(text)
+            # print(q)
+            questions[fname][val] = q
+            # print()
+    print("========= FILE ENDED =========")
+
+    with open('Baselines\Automatic-Question-Generator\AutomaticQuestionGenerator\AQG_Questions.json', 'w') as outfile:
+        json.dump(questions, outfile)

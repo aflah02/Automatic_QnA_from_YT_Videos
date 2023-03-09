@@ -64,9 +64,11 @@ class AutomaticQuestionGenerator():
 
 
                             else:
+                                s = []
                                 try:
                                     s = identification.subjectphrase_search(segmentSets, j)
-                                except Exception:
+                                except Exception as e:
+                                    print(e)
                                     pass
 
                                 if len(s) != 0:
@@ -96,27 +98,27 @@ class AutomaticQuestionGenerator():
                                     except Exception:
                                         pass
 
-                                    else:
-                                        try:
-                                            questionsList += nonClause.what_whom1(segmentSets, j, ner)
-                                        except Exception:
-                                            pass
-                                        try:
-                                            questionsList += nonClause.what_whom2(segmentSets, j, ner)
-                                        except Exception:
-                                            pass
-                                        try:
-                                            questionsList += nonClause.whose(segmentSets, j, ner)
-                                        except Exception:
-                                            pass
-                                        try:
-                                            questionsList += nonClause.howmany(segmentSets, j, ner)
-                                        except Exception:
-                                            pass
-                                        try:
-                                            questionsList += nonClause.howmuch_1(segmentSets, j, ner)
-                                        except Exception:
-                                            pass
+                                else:
+                                    try:
+                                        questionsList += nonClause.what_whom1(segmentSets, j, ner)
+                                    except Exception:
+                                        pass
+                                    try:
+                                        questionsList += nonClause.what_whom2(segmentSets, j, ner)
+                                    except Exception:
+                                        pass
+                                    try:
+                                        questionsList += nonClause.whose(segmentSets, j, ner)
+                                    except Exception:
+                                        pass
+                                    try:
+                                        questionsList += nonClause.howmany(segmentSets, j, ner)
+                                    except Exception:
+                                        pass
+                                    try:
+                                        questionsList += nonClause.howmuch_1(segmentSets, j, ner)
+                                    except Exception:
+                                        pass
 
                 questionsList.append('\n')
         return questionsList
