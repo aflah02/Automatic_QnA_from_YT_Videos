@@ -65,7 +65,7 @@ def get_placeholder_qna(chunks, chunk_time_stamps):
             sub_ls_qna.append(f"Question {i}: Placeholder Question")
             sub_ls_qna.append(f"Answer {i}: Placeholder Answer")
         ls_qna.append(sub_ls_qna)
-    print("Done!")
+    # print("Done!")
     return ls_qna, chunk_time_stamps
 
 # transcript = get_transcript("https://www.youtube.com/watch?v=Z6nkEZyS9nA")
