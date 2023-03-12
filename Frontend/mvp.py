@@ -1,9 +1,7 @@
 import streamlit as st
-import time
 from backend import *
 from streamlit_player import st_player
 
-# Define a function to count the number of consonants and vowels in a string
 def get_questions_and_answers(url):
     transcript = get_transcript(url)
     chunks, chunk_time_stamps = parse_transcript_into_chunks(transcript)
@@ -51,10 +49,10 @@ def video_display_page():
     with c1:
         url = st.session_state.get("url")
         event = st_player(url, **options, key="youtube_player")
-        st.write(event)
-        # while event is None or event.data is None or event.data['playedSeconds'] is None:
-        #     continue
-        print(event.data['playedSeconds'])
+        # st.write(event)
+        if event.data is not None and 'playedSeconds' in event.data:
+            st.write(event.data['playedSeconds'])
+        # print(event.data['playedSeconds'])
 
         # Get the results from the session state
         results = st.session_state["results"]
