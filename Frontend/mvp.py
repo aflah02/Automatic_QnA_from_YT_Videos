@@ -1,6 +1,7 @@
 import streamlit as st
 from backend import *
 from streamlit_player import st_player
+from time import sleep
 
 def get_questions_and_answers(url):
     transcript = get_transcript(url)
@@ -19,7 +20,6 @@ def welcome_page():
         # Display a spinner while the computation is in progress
         with st.spinner("Analyzing Video"):
             results = get_questions_and_answers(input_value)
-            print("Done")
         # Set the session state variables for the results and page
         st.session_state["results"] = results
         # save URL to session state
@@ -29,6 +29,21 @@ def welcome_page():
 
 # Define the function for the Video Display Page
 def video_display_page():
+
+    results = st.session_state.get("results")
+
+    time_stamps = results[-1]
+
+    # end_times = [time_stamps[i][1] for i in range(len(time_stamps))]
+    end_times = [5*(i+1) for i in range(len(time_stamps))] if st.session_state.get("end_times", None) is None else st.session_state.end_times
+
+    paused_at_given_end = [False for i in range(len(end_times))] if st.session_state.get("paused_at_given_end", None) is None else st.session_state.paused_at_given_end
+
+    st.session_state.end_times = end_times
+    st.session_state.paused_at_given_end = paused_at_given_end
+
+    st.session_state.last_pause_time = 0 if st.session_state.get("last_pause_time", None) is None else st.session_state.last_pause_time
+
     st.title("Video Display Page")
     # 2 columns
     c1, c2 = st.columns([5, 3])
@@ -49,15 +64,14 @@ def video_display_page():
     with c1:
         url = st.session_state.get("url")
         event = st_player(url, **options, key="youtube_player")
-        # st.write(event)
         if event.data is not None and 'playedSeconds' in event.data:
             st.write(event.data['playedSeconds'])
-        # print(event.data['playedSeconds'])
+            for i in range(len(end_times)):
+                if event.data['playedSeconds'] >= end_times[i] and not paused_at_given_end[i]:
+                    st.write("PAUSING")
 
-        # Get the results from the session state
-        results = st.session_state["results"]
-        # Display the results on the page
         st.write(results)
+        
 
 # Define the main function
 def main():
