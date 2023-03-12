@@ -57,7 +57,8 @@ def main():
                 percent_complete = 50
                 my_bar.progress(percent_complete, text=progress_text)
             elif percent_complete < 75 and percent_complete >= 50:
-                ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
+                # ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
+                ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
                 progress_text = "Done!"
                 percent_complete = 75
                 my_bar.progress(percent_complete, text=progress_text)

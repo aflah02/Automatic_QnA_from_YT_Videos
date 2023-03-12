@@ -59,8 +59,12 @@ def get_question_and_answer(chunks, chunk_time_stamps):
 def get_placeholder_qna(chunks, chunk_time_stamps):
     ls_qna = []
     for chunk in chunks:
-        ls_qna.append("Question: What is the question?")
-        ls_qna.append("Answer: What is the answer?")
+        # generate 5 random strings for question and 5 random strings for answer
+        sub_ls_qna = []
+        for i in range(5):
+            sub_ls_qna.append(f"Question {i}: Placeholder Question")
+            sub_ls_qna.append(f"Answer {i}: Placeholder Answer")
+        ls_qna.append(sub_ls_qna)
     print("Done!")
     return ls_qna, chunk_time_stamps
 
