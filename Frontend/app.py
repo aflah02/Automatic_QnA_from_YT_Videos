@@ -95,12 +95,13 @@ def video_display_page():
             st.experimental_rerun()
         qnas = results[1]
         for qna in qnas:
-            c = 0
-            while c < len(qna):
-                stoggle(qna[c], qna[c+1])
-                c += 2
+            for q in qna:
+                st.write(q)
+                st.write("")
 
-        
+        for i in results[0]:
+            st.write(i)
+            st.write("")      
 
 # Define the main function
 def main():
