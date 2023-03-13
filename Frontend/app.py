@@ -3,13 +3,26 @@ from backend import *
 from streamlit_player import st_player
 from time import sleep
 from streamlit_extras.stoggle import stoggle
+import os
+import pickle
 
 def get_questions_and_answers(url):
-    transcript = get_transcript(url)
-    chunks, chunk_time_stamps = parse_transcript_into_chunks(transcript)
-    ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
-    # ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
-    return chunks, ls_qna, chunk_time_stamps
+    video_id = get_video_id(url)
+    cache_set = set(list(os.listdir("cache")))
+    if video_id in cache_set:
+        print("Loading from cache")
+        response = pickle.load(open("cache/" + video_id, "rb"))
+        return response
+    else:
+        transcript = get_transcript(url)
+        chunks, chunk_time_stamps = parse_transcript_into_chunks(transcript)
+        ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
+        # ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
+        response = chunks, ls_qna, chunk_time_stamps
+        # cache the response
+        pickle.dump(response, open("cache/" + video_id, "wb"))
+        return response
+
 
 # Define the function for the Welcome Page
 def welcome_page():
