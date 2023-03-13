@@ -16,8 +16,8 @@ def get_questions_and_answers(url):
     else:
         transcript = get_transcript(url)
         chunks, chunk_time_stamps = parse_transcript_into_chunks(transcript)
-        ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
-        # ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
+        # ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
+        ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
         response = chunks, ls_qna, chunk_time_stamps
         # cache the response
         pickle.dump(response, open("cache/" + video_id, "wb"))
