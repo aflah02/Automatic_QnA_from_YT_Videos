@@ -1,0 +1,29 @@
+
+Chunk 2
+What was the name of the most famous Indian nationalist? Gandhi.
+What was the name of the leader of the Muslim League? Muhammad Ali Jinnah.
+-----------------------
+Chunk 3
+What is the name of the holiday Mere Abraration?
+A. Mere Abraration
+B. Mere Abrasion
+C. Mere Abrasion Day
+D. Mere Abraration Day
+-----------------------
+Chunk 4
+Question: How did the colonization of Indochina affect Cambodia and Vietnam?
+Answer: In Cambodia, the end of colonization resulted in the rise of the Khmer Rouge, which massacred a stunning 21% of Cambodia's population between 1975 and 1979. In Vietnam, the French fought communist-led nationalists, especially Ho Chi Minh, from almost the moment World War II ended until 1954, when the French were defeated. The Americans then took over from the French and Communists did not fully control Vietnam until 1975. 
+
+Question: What were the consequences of European colonization in Africa?
+Answer: European colonization in Africa had consequences that are still felt today. The colonizers' focus on value extraction really hurt
+-----------------------
+Chunk 5
+How long has Africa existed?
+Answer: 13 years less than my dad.
+Question: What is the average age of an African nation?
+Answer: 13 years less than my dad.
+What was the name of the long-serving dictator of Zimbabwe?
+Answer: Robert Mugabe
+Question: What was the name of the dictator of the Congo?
+Answer: Joseph Mobutu
+-----------------------
