@@ -9,7 +9,8 @@ import pickle
 def get_questions_and_answers(url, option):
     video_id = get_video_id(url)
     cache_set = set(list(os.listdir("cache")))
-    if video_id in cache_set:
+    cache_id = video_id + "_" + option
+    if cache_id in cache_set:
         print("Loading from cache")
         response = pickle.load(open("cache/" + video_id + "_" + option, "rb"))
         return response
@@ -128,7 +129,11 @@ def video_display_page():
             # st.experimental_rerun()
         qnas = results[1]
 
-        current_time = st.session_state.last_on_progress_time
+        if st.session_state.get("last_on_progress_time", None) is None:
+            st.session_state.last_on_progress_time = 0
+            current_time = 0
+        else:
+            current_time = st.session_state.last_on_progress_time
 
         current_time_slot = 0
         for i in range(len(pause_times)):
