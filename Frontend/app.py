@@ -6,21 +6,21 @@ from streamlit_extras.stoggle import stoggle
 import os
 import pickle
 
-def get_questions_and_answers(url):
+def get_questions_and_answers(url, option):
     video_id = get_video_id(url)
     cache_set = set(list(os.listdir("cache")))
     if video_id in cache_set:
         print("Loading from cache")
-        response = pickle.load(open("cache/" + video_id, "rb"))
+        response = pickle.load(open("cache/" + video_id + "_" + option, "rb"))
         return response
     else:
         transcript = get_transcript(url)
         chunks, chunk_time_stamps = parse_transcript_into_chunks(transcript)
         # ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
-        ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps)
+        ls_qna, chunk_time_stamps = get_question_and_answer(chunks, chunk_time_stamps, option)
         response = chunks, ls_qna, chunk_time_stamps
         # cache the response
-        pickle.dump(response, open("cache/" + video_id, "wb"))
+        pickle.dump(response, open("cache/" + video_id + "_" + option, "wb"))
         return response
 
 
@@ -29,12 +29,15 @@ def welcome_page():
     st.session_state["page"] = "Welcome Page"
     st.title("Welcome Page")
     # Add an input box for the user to enter a value
-    input_value = st.text_input("Enter a url:")
+    input_value = st.text_input("Choose a Service:")
+    url_options = ["OpenAI", "Cohere"]
+    option = st.selectbox("Select a URL:", url_options)
+    st.session_state["option"] = option
     # Add a button to compute the value and navigate to the Video Display Page
     if st.button("Compute and Go to Video Display Page"):
         # Display a spinner while the computation is in progress
         with st.spinner("Analyzing Video"):
-            results = get_questions_and_answers(input_value)
+            results = get_questions_and_answers(input_value, option)
         # Set the session state variables for the results and page
         st.session_state["results"] = results
         # save URL to session state
@@ -63,7 +66,9 @@ def video_display_page():
 
     results = st.session_state.get("results")
 
-    # time_stamps = results[-1]
+    time_stamps = results[-1]
+
+    pause_times = [time_stamps[i][1] for i in range(len(time_stamps))]
 
     # end_times = [time_stamps[i][1] for i in range(len(time_stamps))]
     # end_times = [5*(i+1) for i in range(len(time_stamps))] if st.session_state.get("end_times", None) is None else st.session_state.end_times
@@ -103,9 +108,9 @@ def video_display_page():
             # st.write(event.data['playedSeconds'])
             st.session_state.last_on_progress_time = event.data['playedSeconds']
 
-        if 'last_on_progress_time' in st.session_state:
-            st.write("Last on progress time: ")
-            st.write(st.session_state.last_on_progress_time)
+        # if 'last_on_progress_time' in st.session_state:
+        #     st.write("Last on progress time: ")
+        #     st.write(st.session_state.last_on_progress_time)
         # Check if player event was triggered
         if event.name == "onPause" and st.session_state.playing_bool == True:
             print("onPause triggered")
@@ -122,24 +127,46 @@ def video_display_page():
             # st.session_state.playing_bool = True
             # st.experimental_rerun()
         qnas = results[1]
-        
-        for qna in qnas:
-            for q in qna:
-                st.write(q)
-                st.write("")
 
-        for i in results[0]:
-            st.write(i)
-            st.write("")      
+        current_time = st.session_state.last_on_progress_time
 
-        # if time == 10 seconds then pause and raise a flash message
-        # if event.data is not None and 'playedSeconds' in event.data:
-        #     if event.data['playedSeconds'] >= 10:
-        #         on_pause()
-        #         st.session_state.playing_bool = False
-        #         st.info("Quiz Time")
-        #         st.write(qnas[0][0])
-        #         st.write(qnas[0][1])
+        current_time_slot = 0
+        for i in range(len(pause_times)):
+            if i == 0:
+                if current_time < pause_times[i]:
+                    current_time_slot = i
+                    break
+            if current_time < pause_times[i] and current_time >= pause_times[i-1]:
+                current_time_slot = i
+                break
+
+        questions_AND_answers = qnas[current_time_slot]
+
+        # Remove empty strings
+        questions_AND_answers = [i for i in questions_AND_answers if len(i) != i.count(" ")]
+
+        # L and R Strip
+        questions_AND_answers = [i.strip() for i in questions_AND_answers]
+
+        questions = []
+        answers = []
+        for i in range(len(questions_AND_answers)):
+            if i % 2 == 0:
+                questions.append(questions_AND_answers[i])
+            else:
+                answers.append(questions_AND_answers[i])
+
+        # print(questions)
+        # print(answers)
+
+        # st.write("Current Time Slot: ")
+        # st.write(current_time_slot)
+        # st.write("Current Time: ")
+        # st.write(current_time)
+        for i in range(len(questions)):
+            st.write(questions[i])
+            stoggle("Click to see answer", answers[i])
+            st.write("")
                 
 
 

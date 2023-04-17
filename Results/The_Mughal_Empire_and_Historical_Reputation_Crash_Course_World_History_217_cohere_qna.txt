@@ -1,34 +1,44 @@
 
 Chunk 1
-Are John Green and Crash Course World History discussing the Mongol empire or the Mughal empire?
-The Mughal empire
-What are the two most important Mughal emperors?
-Akbar and Orangzeb
+Question: What is the most important aspect of the Mughals for the contemporary world?
+Answer: They consolidated Muslim rule over much of India and they're largely the reason that today there are so many Indians who are also Muslims.
 -----------------------
 Chunk 2
-Question: What are the ways that the Mughals were a typical empire?
-Answer: Their rulers engaged in building projects to enhance their prestige. From Persepolis to Rome to the Forbidden City, building monuments to one's greatness is what emperors do. And the Mughals were no exception.
-Question: What are some examples of the ways that the Mughals were a typical empire?
-Answer: Their rulers engaged in building projects to enhance their prestige. From Persepolis to Rome to the Forbidden City, building monuments to one's greatness is what emperors do. And the Mughals were no exception.
+Question: What was another way that the Mughals were a typical empire?
+Answer: Their rulers engaged in building projects to enhance their prestige.
+Question: What were some of the ways that Akbar was a good ruler?
+Answer: through his reforms of administration and taxation, Akbar created a sound and enduring foundation for Mukul governance, while his tolerant attitude and inclusive policies toward Hindus and Jains helped create a state that was more Indian in character.
+Question: What was the name of the policy instituted by Akbar that gave nonmuslims the same rights as Muslims?
+Answer: Sula kul, which translates to universal toleration.
+Question: What is the significance of the fact that Akbar rescinded the jizya, the tax that nonmuslims had to pay?
 -----------------------
 Chunk 3
-What did Aurangzeb build that modern historians do not like? Aurangzeb built an Islamic state that discriminated against non-Muslims which caused a loss of unity across the Indian subcontinent and eventually the decline of the empire.
-When did the British East India Company establish itself permanently in Bengal? The British East India Company established itself permanently in Bengal in 1757.
+Question: What is the Ibadat Khana?
+Answer: A building for religious discussions, where Muslims and Brahmins and Zoroastrians and Christians could talk theology.
+Question: What is the Suli kule?
+Answer: A device for restraining a cow's head during milking.
+Question: Why was Akbar's grandson, Aurangzeb, remembered less favorably than Akbar?
+Answer: Jay and zakar promoted the idea that Aurangzeb built an Islamic state that discriminated against Hindus and other non-Muslims, which in turn led to a loss of unity across the Indian subcontinent and eventually the decline of the empire.
+Question: What is meant by the phrase "whether these guys deserve their reputations really depends both on what aspects of their reign you look at and how you interpret them"?
+Answer: As conquerors, Akbar and Orangzeb had a lot in common. Like Akbar might have sponsored high-minded discussion, but he was also willing to use extreme violence to keep his subjects in line. For example, he slaughtered thousands of inhabitants of the Fort Echitor and ordered his generals to pile up the skulls of Indian princes to frighten them into submission. That's not especially tolerant. And here's another detail about Akbar's rule that's meant to paint him as a modern, enlightened ruler. Because he was interested in science, Akbar arranged an experiment. He had infants moved to a special house where no person was to talk to them, so that the natural language of mankind might be revealed. The experiment failed, but it is a reflection of Akbar's desire to explore in a scientific manner the nature of humans and what he believed to be their common condition. Now, you can read that as a leader trying to understand the underlying connections among all humans, no matter their religious backgrounds. Or you can read it as hor
 -----------------------
 Chunk 4
-
-Question: What was the Taj Mahal's maintenance cost?
-Answer: 30 villages
-Question: What was the reason for the Taj Mahal's maintenance cost?
-Answer: Orangzeb was also accused of destroying temples in 1669, although, in fact, they were just damaged. And this was primarily done to send a political message to opponents, not as an act of religious orthodox. He also tried to limit expenses at court by prohibiting the use of gold in men's garments. And he stopped the traditional practice of being weighed against gold on his birthday.
-
-Question: What was the reason for Orangzeb's orthodoxy?
-Answer: He also tried to limit expenses at court by prohib
+What is Shah Jahan known for?
+Answer: He's best known for building the Taj Mahal.
+Question: What did Shah Jahan build?
+Answer: He built it by himself.
+Question: What does the Taj Mahal generate?
+Answer: The Taj Mahal has done pretty well in terms of generating tourist money, whereas I don't think anyone's paying to see Orangzeb's grave.
 -----------------------
 Chunk 5
-What are the reasons for Aurangzeb's bad reputation? 
-Aurangzeb's bad reputation may come from a contemporary preference for tolerance over piety in our rulers, or from a general feeling that states are better ruled by secular than religious laws, or from the fact that it's just hard to rule a declining empire. 
-
-What are the reasons for Akbar's good reputation? 
-Akbar comes out in a good light because he did advocate religious toleration. But it wasn't totally or even primarily due to his religious tolerance that Akbar was able to win most of his wars and the many rebellions against his reign suggest that he wasn't as popular with his subjects as he is today with historians.
+Question: What was the role of the court musicians and poets during the reign of the Mughals?
+Answer: The court musicians and poets were dismissed.
+Question: What was the reasoning behind the dismissal of the court musicians and poets?
+Answer: The reasoning behind the dismissal of the court musicians and poets was a cost saving measure.
+Question: What was the reasoning behind Aurangzeb's bad reputation?
+Answer: It's possible that Aurangzeb's bad reputation comes from a contemporary preference for tolerance over piety in our rulers, or from a general feeling that states are better ruled by secular than religious laws, or from the fact that it's just hard to rule a declining empire.
+Question: How does our experiences and biases affect how we look at the past?
+Answer: Our experiences and biases make us more likely to see the dismissal of court musicians and poets as an example of religious fanaticism than as like, a cost saving measure.
+Question: How does history define us today?
+Answer: One of the roots of contemporary Hindu nationalism is pride at India's, throwing off the shackles of imperialism. And for many Hindu nationalists, that history of imperialism starts not with the British, but with the Mughals.
 -----------------------

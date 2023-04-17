@@ -1,35 +1,49 @@
 
 Chunk 1
-What is the Berlin Conference? 
-The Berlin Conference of 1884 was a meeting of European nations to decide the fate of Africa.
+Question: What was the disaster that occurred with the destruction of the Summer Palace in the 1860s?
+Answer: The disaster was the destruction of the Summer Palace in the 1860s.
+Question: Why was the Muslim world affected by European imperialism?
+Answer: The Muslims were affected by European imperialism because they were chain up, put around their necks a yoke of servitude, debase and humiliate their lineage, and they do not mention their name, but with insult. Sometimes they call them savages and sometimes regard them as hard hearted and cruel, and finally consider them insane animals.
+Question: What was the reason Europe was able to dominate and humiliate the Muslims?
+Answer: The reason Europe was able to dominate and humiliate the Muslims was Europe's superior industrial technology and organization.
+Question: How did the Asians respond to this?
+Answer: One early response was to say, well, if you can't beat them, join them.
 -----------------------
 Chunk 2
-
-1.What was the biggest supporter of the phrase "self strengthening" in China? 
-Fenglifeng
-2. What did the Chinese intellectuals take from the West besides education and military reforms? 
-The strength of the West was rooted in its political organization into nation states.
+What is the name of the Chinese reformer who took up the challenge of blending western and Chinese ideas of governance?
+Ken-Ting Wei
+What was the name of the Ottoman Empire's biggest supporter of the phrase "self strengthening"?
+Feng Lifeng
+Why did Chinese intellectuals respond similarly to the humiliation of the Opium Wars?
+They wanted to adopt Western models of education and organization.
+What did Ala Ghani initially echo calls to study more science and philosophy?
+He wanted Muslims to begin to think of themselves as a nation in the sense of a culturally unified people.
 -----------------------
 Chunk 3
-Are you sure that wasn't a German nationalist stand? Because that was a lot of fatherlands. Maybe it was translated by a German.
-And then there's India. As the most thoroughly colonized Asian territory. India's feelings about nationalism were very complicated. Some Indians wanted to create a European style state organized around Hinduism. But of course, India had a large Muslim minority. And also Hinduism, with its caste divisions, wasn't great for creating political unity.
-Aberrations of European materialism? I don't know what you're talking about. Oh, that is delicious. Hold on, I got to play floppy bird for a second.
-But many Asians considering adopting European models of nationalism looked to one
+Question: What is the context of the paragraph?
+Answer: 
+The text is a piece of youtube video transcript so ignore all noisy information which is irrelevant and only focus on the educational material. Any information which seems to be irrelevant and only part of small talk MUST NOT be included in the Questions and Answer.
+The transcript is the following - Are you sure that wasn't a German nationalist stand? Because that was a lot of fatherlands. Maybe it was translated by a German. And then there's India. As the most thoroughly colonized Asian territory. India's feelings about nationalism were very complicated. Some Indians wanted to create a European style state organized around Hinduism. But of course, India had a large Muslim minority. And also Hinduism, with its caste divisions, wasn't great for creating political unity. Others, like Orbindo Ghosh, were critical of adopting too many European ideas, worrying that India Quote was in danger of losing its soul by an insensate surrender to the aberrations of European materialism. Aberrations of European materialism? I don't know what you're talking about. Oh, that is delicious. Hold on, I got to play floppy bird for a second. But many Asians considering adopting European models of nationalism looked to one of its biggest success stories japan. For Europeans, Japan became kind of a confirmation of a modernization program. Industrialization, centralization and to a lesser degree, liberal constitutionalism could work. And this was also true to some extent for Asian intellectuals, including Lang Chikao and Rabindanath Tagore, both of whom visited Japan. But ultimately, Japan didn't provide a great model for other Asians attempting to reform their own states, especially because Japan embarked on its own imperial expansion. It's almost as if, in addition to industrialization and centralization and et cetera, imperialism was just part of building a strong nation state. So by the early 20
 -----------------------
 Chunk 4
-Question: What was Lang Chikao's most famous work?
-Answer: Lange came up with a different source of reform the strong state.
-Question: What was the title of Lange's work that was a critique of European imperialism and also a call for a strong, somewhat authoritarian state that could stand up to the west?
-Answer: New Rules for Destroying Countries
-Question: What was Gandhi's opinion of the West?
-Answer: Gandhi went very far in his critique of the West's modernism, saying that it lacked spiritual freedom and social harmony, even rejecting many aspects of the Industrial Revolution itself.
+Q: What is the main point the speaker is making?
+A: The main point the speaker is making is that while Lange Chikao came up with a different source of reform the strong state, China would never do that. Oh, wait, wait a second. They did. Eventually, he came to the conclusion that the Chinese people must now accept authoritarian rule. They cannot enjoy freedom.
+Q: What is the name of the person who came up with a different source of reform the strong state?
+A: The name of the person who came up with a different source of reform the strong state is Lange Chikao.
+Q: What was the title of the book Lange Chikao wrote?
+A: The title of the book Lange Chikao wrote is On the New Rules for Destroying Countries.
+Q: What was the result of the war looked suspiciously like the prewar imperialism that many Asians believed was a cause of the war in the first place?
+A: The result of the war looked suspiciously like the prewar imperialism that many Asians believed was a cause of the war in the first place.
 -----------------------
 Chunk 5
-How did the western nations respond to imperialism?
-
-They criticized it as bad and lamented their insensate surrender to the aberrations of European materialism.
-
-Why did the western nations respond to imperialism the way they did?
-
-They criticized it as bad and lamented their insensate surrender to the aberrations of European materialism.
+ Question: What did the speaker acknowledge about the age belonging to the west?
+Answer: The age belongs to the west and humanity must be grateful to you for your science.
+Question: What was the audience in New York that the speaker spoke to?
+Answer: New York.
+Question: What did the speaker caution the audience in New York about?
+Answer: He cautioned the audience in New York that you have exploited those who are helpless and humiliated those who are unfortunate.
+Question: What is the name of the course the speaker is teaching?
+Answer: Crash Course.
+Question: Where was the speaker when he made the video?
+Answer: Indianapolis.
 -----------------------

@@ -1,29 +1,49 @@
 
+Chunk 1
+No Response
+-----------------------
 Chunk 2
-What was the name of the most famous Indian nationalist? Gandhi.
-What was the name of the leader of the Muslim League? Muhammad Ali Jinnah.
+Question: What was the most famous Indian nationalist?
+Answer: Mohandas K. Gandhi
+Question: What were the views of Gandhi and Nehru on the future of India?
+Answer: They believed that a single India could continue to be ruled by Indian elites and somehow transcend the tension between the country's Hindu majority and its sizable Muslim minority.
+Question: What was the view of Muhammad Ali Jinnah on the future of India?
+Answer: He felt, to quote historian Ainslie Embry, that the unified India of which the Congress spoke was an artificial one created and maintained by British Bayonets.
+Question: What was the result of the British leaving India?
+Answer: Their Indian colony was partitioned into the modern state of India and west and East Pakistan, the latter of which became Bangladesh in 1971.
 -----------------------
 Chunk 3
-What is the name of the holiday Mere Abraration?
-A. Mere Abraration
-B. Mere Abrasion
-C. Mere Abrasion Day
-D. Mere Abraration Day
+How many people died in the bloody Indonesian battle for independence?
+More than half a million people were killed.
+What did Gandhi do during the violence in India?
+Gandhi did a hunger strike to end violence.
+When did hunger strikes start in India?
+The hunger strikes in India date back to the fifth century BCE.
+When did the Dutch start to exploit their island colonies?
+The Dutch started to exploit their island colonies in the 16th century.
 -----------------------
 Chunk 4
-Question: How did the colonization of Indochina affect Cambodia and Vietnam?
-Answer: In Cambodia, the end of colonization resulted in the rise of the Khmer Rouge, which massacred a stunning 21% of Cambodia's population between 1975 and 1979. In Vietnam, the French fought communist-led nationalists, especially Ho Chi Minh, from almost the moment World War II ended until 1954, when the French were defeated. The Americans then took over from the French and Communists did not fully control Vietnam until 1975. 
-
-Question: What were the consequences of European colonization in Africa?
-Answer: European colonization in Africa had consequences that are still felt today. The colonizers' focus on value extraction really hurt
+Question: What was the name of the Egyptian king who took his orders from the British?
+Answer: The Egyptian king who took his orders from the British was King Gamal Abdul Nasr.
+Question: Why did the king of Egypt declare bankruptcy?
+Answer: The king of Egypt declared bankruptcy because he was trying to industrialize his country.
+Question: What was the name of the country that massacred 21% of its population?
+Answer: The country that massacred 21% of its population was Cambodia.
+Question: What is the name of the country that took over for the French in Indochina?
+Answer: The country that took over for the French in Indochina was the United States.
+Question: What was the name of the country that took over for the British in Egypt?
+Answer: The country that took over for the British in Egypt was the Soviet Union.
 -----------------------
 Chunk 5
-How long has Africa existed?
-Answer: 13 years less than my dad.
-Question: What is the average age of an African nation?
-Answer: 13 years less than my dad.
-What was the name of the long-serving dictator of Zimbabwe?
-Answer: Robert Mugabe
-Question: What was the name of the dictator of the Congo?
-Answer: Joseph Mobutu
+Question: What is the main idea of the video?
+Answer: The main idea of the video is that while European colonization had a negative impact on Africa, there have been some positive outcomes as well, such as improved literacy, economic growth, and life expectancy. 
+
+Question: How did European colonization affect Africa?
+Answer: European colonization had a negative impact on Africa, including the introduction of diseases, forced labor, and the extraction of resources.
+
+Question: What are some positive outcomes of European colonization in Africa?
+Answer: Some positive outcomes of European colonization in Africa include improved literacy, economic growth, and life expectancy. 
+
+Question: Why is it difficult to predict the future of Africa?
+Answer: It is difficult to predict the future of Africa because the continent is still recovering from the effects of colonization and is facing challenges such as poverty, corruption, and inequality.
 -----------------------

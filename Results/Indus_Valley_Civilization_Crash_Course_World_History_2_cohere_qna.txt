@@ -1,36 +1,51 @@
 
 Chunk 1
 What is a civilization?
-A civilization is an intellectual construct that is used to compare different groups of people. It is problematic because it implies that some groups are uncivilized. 
-
-Why does John Green always wear the same outfit?
-John Green wears the same outfit to make the production of the show more efficient.
+Answer: A civilization is an intellectual construct.
+Question: Why were the ancient Greeks called barbarians?
+Answer: The ancient Greeks called everyone who did not speak ancient Greek barbarians.
+Question: What is the main difference between civilizations and uncivilized people?
+Answer: Civilizations imply that all other social orders are uncivilized.
+Question: What is the best way to compare civilizations?
+Answer: Civilizations are useful when comparing one civilization to another.
 -----------------------
 Chunk 2
-If you have four or more of the following symptoms, you might be a civilization surplus production. Once one person can make enough food to feed several people, it becomes possible to build a city, another symptom of civilization. It also leads to the specialization of labor, which in turn leads to trade. 
-
-Like if everybody picks berries for a living, there is no reason to trade because I have berries and you have berries. But if I pick berries for a living and you make hammers, suddenly we have cause to trade. 
-
-Civilizations are also usually associated with social stratification, centralized government, shared values, generally in the form of religion and writing. And at least in the early days, they were almost always associated
+Question: Why were ancient civilizations usually associated with rivers?
+Answer: They're flat, they're well wandered, and when they flood, they deposit nutrient rich silt.
+Question: What is the Indus Valley Civilization?
+Answer: The Indus Valley civilization was located in the floodplain of the Indus and Sawardi rivers, and it was about the best place in the world to have an ancient civilization because the rivers flooded very reliably twice a year, which meant that it had the most available calories per acre of pretty much anywhere on the planet.
+Question: When did the Indus Valley Civilization flourish?
+Answer: We know the Indus Valley civilization flourished a long time ago, probably around 3000 BCE.
+Question: Why were people of the Indus Valley trading with Mesopotamians as early as 3500 BCE?
 -----------------------
 Chunk 3
-What was the largest public building in Mohenjo Daro? 
-The largest public building in Mohenjo Daro was a public bath, which historians call the Great Bath. 
-
-What did the Indus Valley people trade? 
-The Indus Valley people were known for trading cotton cloth.
+Question: What was the largest public building in Mahanja Dara?
+Answer: The largest public building was not a temple or a palace, but a public bath, which historians call the Great Bath.
+Question: What was the Great Bath used for?
+Answer: Some historians have speculated that the bath might have been like a giant baptismal pool.
+Question: What was the most important thing that the Indus Valley civilization produced?
+Answer: They traded one of the coolest things that the Indus Valley civilization produced were seals used as identification markers on goods and clay tablets.
+Question: How did these seals let us know that they traded?
+Answer: We found them in Mesopotamia, not the Indus Valley. Plus, archaeologists have found stuff like bronze in the Indus Valley that is not native to the region. So what did they trade?
+Answer: Cotton cloth.
 -----------------------
 Chunk 4
-What is the secret compartment's name? 
-The secret compartment is called the Great Bath.
-Why did the Indus Valley Civilization decline? 
-The Indus Valley Civilization declined due to a massive earthquake that changed the course of the rivers so much that a lot of the tributaries dried up.
+What is the name of the open letter writer?
+John Green
+What is the name of the open letter reader?
+It is an unnamed historian
+When did the Indus Valley Civilization start to decline?
+1750 BCE
+What is the most likely reason for the decline of the Indus Valley Civilization?
+A massive earthquake changed the course of the rivers so much that a lot of the tributaries dried up. Without adequate water supplies for irrigation, the cities couldn't sustain themselves.
 -----------------------
 Chunk 5
-"Why did the Indus Valley civilization end?"
-"Were they motivated by hunger, fear, a desire for companionship, the need to be near their sacred spaces, or a general feeling that city life was just more awesome than foraging?"
-"How do you structure your own life?"
-"Are you clingy because you're motivated by fear and a need for companionship?"
-"And she finds it annoying because it's enough work having to be responsible for herself without having to also be responsible for you. Also, you're not really helping her by clinging."
-"How is human life all about collaboration, trading cloth for bronze, building cities together, and collaborating to make sure that human lives are tilt
+How did the Indus Valley civilization end?
+Answer: We don't know
+Why did the Indus Valley civilization start?
+Answer: We don't know
+What motivated the Indus Valley civilization to build cities and dig swimming pools?
+Answer: We don't know
+Why did the Indus Valley civilization end?
+Answer: We don't know
 -----------------------

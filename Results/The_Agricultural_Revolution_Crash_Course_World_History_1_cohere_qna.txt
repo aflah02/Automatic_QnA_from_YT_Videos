@@ -1,30 +1,56 @@
 
 Chunk 1
-What is the name of the course?  Crash Course World History
-What is the name of the instructor?  John Green
-What will the test measure?  Whether you are an informed, engaged and productive citizen of the world
-What will the test be judged on?  Your ability to think about things other than celebrity marriages, whether you'll be easily persuaded by empty political rhetoric, and whether you'll be able to place your life and your community in a broader context
-How long will the test last?  The test will last your entire life
-What will the test be comprised of?  The millions of decisions that, when taken together, make your life, yours
+Question: What is the name of the author?
+Answer: John Green
+Question: How many weeks will it take to learn World History?
+Answer: 40 weeks
+Question: What will be tested in the test?
+Answer: Whether you are an informed, engaged and productive citizen of the world
+Question: What will be the format of the test?
+Answer: Schools, bars, hospitals, dorm rooms, First dates, job interviews, while watching football, while scrolling through your Twitter feed
+Question: What is the name of the video?
+Answer: Crash Course World History
 -----------------------
 Chunk 2
-What were the best hunting gig in the prehistoric world?
-Answer: fishing
-What did Nisa say about people who live in agricultural societies?
-Answer: spend a lot fewer hours working than the rest of us
+Question: Why were foragers healthier than agriculturalists?
+Answer: Their bones and teeth are healthier than those of agriculturalists and anthropologists who've studied the remaining forager peoples have noted that they actually spend a lot fewer hours working than the rest of us and they spend more time on art, music and storytelling. Also, if you believe the classic of anthropology, Nisa, they also have a lot more time for scooterly pooping.
+Question: What was the best hunting gig in the prehistoric world?
+Answer: Marine life was a abundant and B relatively unlikely to eat you.
+Question: What are the advantages and disadvantages of agriculture?
+Answer: Advantage controllable food supply. You might have droughts or floods, but if you're growing the crops and breeding them to be harder, you have a better chance of not starving. Disadvantage in order to keep feeding people as the population grows you have to radically change the environment of the planet. Advantage especially if you grow grain, you can create a food surplus, which makes cities possible and also the specialization of labor. Like in the days before agriculture, everybody's job was foraging and it took about 1000 calories of work to create 1000 calories of food and it was impossible to create large population centers. But if you have a surplus, agriculture can support people not directly involved in the production of food.
+Question: Why were foragers unable to create large population centers?
+Answer: It took about 1000 calories of work to create 1000 calories of food and it was impossible to create large population centers.
 -----------------------
 Chunk 3
-What do you mean it's cold? I was promised a nice, warm sandwich.
-Which is the better way to get meat, herding or agriculture?
-What kinds of animals can be herded?
+What was the speaker's favorite subject in school?
+Answer: The speaker's favorite subject in school was history.
+Question 2: 
+Why does the speaker say that agriculture can be practiced all over the world?
+Answer: Agriculture can be practiced all over the world because it takes extensive manipulation of the environment, like irrigation, controlled flooding, terroristing, that kind of thing.
+Question 3: 
+What are the advantages of herding?
+Answer: The advantages of herding are obvious. First, you get to be a cowboy. Also, animals provide meat and milk, but they also help out with shelter because they can provide wool and leather.
+Question 4: 
+What are the disadvantages of herding?
+Answer: The downside is that you have to move around a lot, because your herd always needs new grass, which makes it hard to build cities, unless you are the Mongols.
+Question 5: 
+What are some animals that lend themselves to domestication?
 -----------------------
 Chunk 4
-Question: what do historians believe was the greatest evolutionary advantage being useful to humans?
-Answer: cows
-Question: What is John Green saying in the last part of the audio?
-Answer: elephants if you just inserted yourself into human life the way cows did, you could have used your power and intelligence to form secret elephant societies, conspiring against the humans.
+Question: What did Charles Darwin believe about the Agricultural Revolution?
+Answer: He believed it was an accident.
+Question: Why do historians think the Agricultural Revolution occurred?
+Answer: Historians think it occurred due to population pressure, abundance, or the desire to produce more alcohol.
+Question: What is the Agricultural Revolution?
+Answer: The Agricultural Revolution was the development of farming and agriculture.
+Question: What is the best theory for the Agricultural Revolution?
+Answer: The best theory is that there wasn't really an Agricultural Revolution at all, but that agriculture came out of an evolutionary desire to eat more.
 -----------------------
 Chunk 5
--What did people in the Francave do to snails? 
--What is a reason agriculture has been a "big loser"?
+How did the people who ate snails selectively breed them to be bigger and more nutritious?
+A. By feeding them more food.
+B. By giving them more space to roam.
+C. By scratching a ditch around their living quarters.
+D. By providing them with more sunlight.
+E. By creating a specific breeding ground for them.
 -----------------------
