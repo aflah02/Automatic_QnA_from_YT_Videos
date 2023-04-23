@@ -1,0 +1,2 @@
+open_ai_key = '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'
+cohere_key = 'KpwQhO7lNPtF1GUkxi4MYcy1eidMcKzKp9kvuwvy'
