@@ -6,7 +6,7 @@ Data/AssemblyAIRunner/ffplay.exe
 Data/AssemblyAIRunner/ffmpeg.exe
 Data/AssemblyAIRunner/ffprobe.exe
 1_Baseline.zip
-# 1_Baseline/Data/AssemblyAIRunner/config.py
+1_Baseline/Data/AssemblyAIRunner/config.py
 1_Baseline/Data/AssemblyAIRunner/ffplay.exe
 1_Baseline/Data/AssemblyAIRunner/ffmpeg.exe
 1_Baseline/Data/AssemblyAIRunner/ffprobe.exe
@@ -15,8 +15,8 @@ Data/AssemblyAIRunner/ffprobe.exe
 1_Baseline/Data/AssemblyAIRunner/Audio_Downloads/The_Agricultural_Revolution_Crash_Course_World_History_1.mp3
 1_Baseline/Data/AssemblyAIRunner/Audio_Downloads/Indus_Valley_Civilization_Crash_Course_World_History_2.mp3
 1_Baseline/Data/AssemblyAIRunner/Audio_Downloads/Decolonization_and_Nationalism_Triumphant_Crash_Course_World_History_40.mp3
-# Frontend/config_keys.py
-# 1_MidReview/Frontend/config_keys.py
+Frontend/config_keys.py
+1_MidReview/Frontend/config_keys.py
 1_MidReview/Data/AssemblyAIRunner/config.py
 1_MidReview/Data/AssemblyAIRunner/ffmpeg.exe
 1_MidReview/Data/AssemblyAIRunner/ffprobe.exe

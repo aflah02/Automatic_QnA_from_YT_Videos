@@ -9,12 +9,13 @@ import pickle
 def get_questions_and_answers(url, option):
     video_id = get_video_id(url)
     cache_set = set(list(os.listdir("cache")))
-    cache_id = video_id + "_" + option
-    if cache_id in cache_set:
+    file_name = video_id + "_" + option
+    if file_name in cache_set:
         print("Loading from cache")
         response = pickle.load(open("cache/" + video_id + "_" + option, "rb"))
         return response
     else:
+        print("Loading from API")
         transcript = get_transcript(url)
         chunks, chunk_time_stamps = parse_transcript_into_chunks(transcript)
         # ls_qna, chunk_time_stamps = get_placeholder_qna(chunks, chunk_time_stamps)
@@ -27,15 +28,15 @@ def get_questions_and_answers(url, option):
 
 # Define the function for the Welcome Page
 def welcome_page():
-    st.session_state["page"] = "Welcome!"
-    st.title("Welcome Page")
+    st.session_state["page"] = "Welcome Page"
+    st.title("Welcome!")
     # Add an input box for the user to enter a value
-    input_value = st.text_input("Choose a Youtube Video:")
+    input_value = st.text_input("Choose a Service:")
     url_options = ["OpenAI", "Cohere"]
     option = st.selectbox("Select a URL:", url_options)
     st.session_state["option"] = option
     # Add a button to compute the value and navigate to the Video Display Page
-    if st.button("Compute and Go to Video Display Page"):
+    if st.button("Compute"):
         # Display a spinner while the computation is in progress
         with st.spinner("Analyzing Video"):
             results = get_questions_and_answers(input_value, option)
@@ -48,7 +49,7 @@ def welcome_page():
 
 # Define the function for the Video Display Page
 def video_display_page():
-    st.session_state["page"] = "Video Feed"
+    st.session_state["page"] = "Video Display Page"
 
     # Define session state variable
     if "is_playing" not in st.session_state:
@@ -81,23 +82,23 @@ def video_display_page():
 
     st.session_state.last_pause_time = 0 if st.session_state.get("last_pause_time", None) is None else st.session_state.last_pause_time
 
-    st.title("Video Display Page")
+    st.title("Video Player with Questions and Answers")
     # 2 columns
-    c1, c2 = st.columns([7, 3])
+    c1, c2 = st.columns([9,1])
 
     with c2:
         playing_bool = False if st.session_state.get("playing_bool", None) is None else st.session_state.playing_bool
         st.session_state.playing_bool = playing_bool
-        st.write(st.session_state.playing_bool)
+        # st.write(st.session_state.playing_bool)
         options = {
             # Onprogress is needed to get the time data
             "events": ["onPlay", "onPause", "onProgress"],
             "progress_interval": 5000,
-            "playing": st.checkbox("Playing", st.session_state.playing_bool),
+            # "playing": st.checkbox("Playing", st.session_state.playing_bool),
             "controls": True,
 
         }
-        st.write(options)
+        # st.write(options)
 
 
     with c1:
@@ -130,7 +131,6 @@ def video_display_page():
         qnas = results[1]
 
         if st.session_state.get("last_on_progress_time", None) is None:
-            st.session_state.last_on_progress_time = 0
             current_time = 0
         else:
             current_time = st.session_state.last_on_progress_time

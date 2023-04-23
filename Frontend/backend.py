@@ -107,4 +107,5 @@ def get_placeholder_qna(chunks, chunk_time_stamps):
 #     print()
 
 if __name__ == "__main__":
-    get_placeholder_qna("https://youtu.be/ylWORyToTo4")
+    print(get_placeholder_qna("https://youtu.be/ylWORyToTo4", []))
+    print(get_question_and_answer("https://youtu.be/ylWORyToTo4", [], "OpenAI"))
