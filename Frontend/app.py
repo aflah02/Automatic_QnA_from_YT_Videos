@@ -27,10 +27,10 @@ def get_questions_and_answers(url, option):
 
 # Define the function for the Welcome Page
 def welcome_page():
-    st.session_state["page"] = "Welcome Page"
+    st.session_state["page"] = "Welcome!"
     st.title("Welcome Page")
     # Add an input box for the user to enter a value
-    input_value = st.text_input("Choose a Service:")
+    input_value = st.text_input("Choose a Youtube Video:")
     url_options = ["OpenAI", "Cohere"]
     option = st.selectbox("Select a URL:", url_options)
     st.session_state["option"] = option
@@ -48,7 +48,7 @@ def welcome_page():
 
 # Define the function for the Video Display Page
 def video_display_page():
-    st.session_state["page"] = "Video Display Page"
+    st.session_state["page"] = "Video Feed"
 
     # Define session state variable
     if "is_playing" not in st.session_state:
@@ -94,7 +94,7 @@ def video_display_page():
             "events": ["onPlay", "onPause", "onProgress"],
             "progress_interval": 5000,
             "playing": st.checkbox("Playing", st.session_state.playing_bool),
-            "controls": False,
+            "controls": True,
 
         }
         st.write(options)
